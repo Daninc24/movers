@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>Movers Express</title>
+    <!-- npx @tailwindcss/cli -i ./input.css -o ./style.css --watch -->
+</head>
+<body class="bg-orange-200">
+    <!-- navbar section -->
+     <nav class="navbar flex justify-between bg-gray-800 p-4">
+        <h1 class="flex font-bold text-2xl text-white">MOVEXP</h1>
+        <ul class="flex space-x-4">
+            <li class="flex font-bold text-white cursor-pointer">Home</li>
+            <li class="flex font-bold text-white cursor-pointer">About</li>
+            <li class="flex font-bold text-white cursor-pointer">Services</li>
+            <li class="flex font-bold text-white cursor-pointer">ContactUs</li>
+        </ul>
+     </nav>
+    <!-- about Section -->
+     <section class="about flex justify-center items-center p-4" id="about">
+        <div class="about-content flex flex-col items-center">
+            <h1 class="text-4xl font-bold text-gray-800">About Us</h1>
+            <p class="text-center text-gray-600 mt-4">About Us
+                MOVERS EXPRESS is a trusted and professional moving company with three years of experience in providing reliable, efficient, and stress-free relocation services. Since our establishment in [Year], we have built a strong reputation for delivering top-quality moving solutions tailored to meet the unique needs of our clients.
+                
+                Our team of skilled movers is committed to handling every move with care, professionalism, and efficiency. Whether you’re relocating a home, office, or business, we ensure a smooth transition with affordable pricing and exceptional customer service.</p>
+        </div>
+     </section>
+    <!-- OurServises section -->
+     
+    <section class="our-services flex justify-center items-center p-4" id="services">
+            <div class="services-content flex flex-col items-center">
+                <h1 class="text-4xl font-bold text-gray-800">Our Services</h1>
+                <div class="services-list flex flex-wrap justify-center mt-4">
+                    <div class="service-item m-4 p-4 border border-gray-300 rounded-lg w-64 bg-blue-300 text-xl">
+                        <img src="./assets/residential moving.jpg" alt="" class="w-full" height="100px" width="100" >
+                        <h2 class="text-xl font-semibold text-gray-700">Residential Moving</h2>
+                        <p class="text-gray-600 mt-2">We offer comprehensive residential moving services, ensuring your belongings are safely transported to your new home.</p>
+                    </div>
+                    <div class="service-item m-4 p-4 border border-gray-300 rounded-lg w-64 bg-blue-300 text-xl">
+                        <img src="./assets/Commercial moving.jpg" alt="" class="w-full" height="100px" width="100">
+                        <h2 class="text-xl font-semibold text-gray-700">Commercial Moving</h2>
+                        <p class="text-gray-600 mt-2">Our commercial moving services are designed to minimize downtime and ensure a smooth transition for your business.</p>
+                    </div>
+                    <div class="service-item m-4 p-4 border border-gray-300 rounded-lg w-64 bg-blue-300 text-xl">
+                        <img src="./assets/packaging.jpg" alt="" class="w-full" height="100px" width="100" >
+                        <h2 class="text-xl font-semibold text-gray-700">Packing Services</h2>
+                        <p class="text-gray-600 mt-2">We provide professional packing services to ensure your items are securely packed and protected during the move.</p>
+                    </div>
+                    <div class="service-item m-4 p-4 border border-gray-300 rounded-lg w-64 bg-blue-300 text-xl">
+                        <img src="./assets/storesolution.jpg" alt="" class="w-full" height="100px" width="100px">
+                        <h2 class="text-xl font-semibold text-gray-700">Storage Solutions</h2>
+                        <p class="text-gray-600 mt-2">Need temporary storage? We offer secure storage solutions to keep your belongings safe.</p>
+                    </div>
+                </div>
+            </div>
+        </section>   
+    <!-- contact us section-->
+
+    <section class="contact-us flex justify-center items-center p-4" id="contact">
+        <div class="contact-content flex flex-col items-center">
+            <h1 class="text-4xl font-bold text-gray-800">Contact Us</h1>
+            <p class="text-center text-gray-600 mt-4">
+                Have questions or need a quote? Contact us today!
+            </p>
+            <div class="contact-form mt-4 w-full">
+                <form class="flex flex-col space-y-4">
+                    <input type="text" placeholder="Your Name" class="border border-gray-300 p-2 rounded-md w-full">
+                    <input type="email" placeholder="Your Email" class="border border-gray-300 p-2 rounded-md w-full">
+                    <textarea placeholder="Your Message" class="border border-gray-300 p-2 rounded-md"></textarea>
+                    <button class="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-700">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- testimonals from our customers -->
+
+    <section class="testimonials flex justify-center items-center p-4" id="testimonials">
+        <div class="testimonials-content flex flex-col items-center bg-teal-400 p-4 rounded-lg">
+            <h1 class="text-4xl font-bold text-gray-800">Testimonials</h1>
+            <div class="testimonials-list flex flex-wrap justify-center mt-4">
+                <div class="testimonial-item m-4 p-4 border border-gray-300 rounded-lg w-80 bg-gray-100">
+                    <img src="./assets/happyfamily.jpg" alt="" class="w-full" height="100px" width="100">
+                    <p class="text-gray-700">"Movers Express made our move so easy! They were professional, efficient, and handled our belongings with care."</p>
+                    <p class="text-gray-600 mt-2">- John Doe</p>
+                </div>
+                <div class="testimonial-item m-4 p-4 border border-gray-300 rounded-lg w-80 bg-gray-100">
+                    <img src="./assets/woman.jpg" alt="" class="w-full" height="100px" width="100" >
+                    <p class="text-gray-700">"I highly recommend Movers Express. Their team was punctual, courteous, and made sure everything arrived safely."</p>
+                    <p class="text-gray-600 mt-2">- Jane Smith</p>
+                </div>
+                <div class="testimonial-item m-4 p-4 border border-gray-300 rounded-lg w-80 bg-gray-100">
+                    <img src="./assets/johndoe.jpg" alt="" class="w-full" height="100px" width="100">
+                    <p class="text-gray-700">"Great service! Movers Express took the stress out of moving. I'll definitely use them again."</p>
+                    <p class="text-gray-600 mt-2">- David Lee</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer section -->
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2023 Movers Express. All rights reserved.</p>
+    </footer>
+</body>
+</html>
